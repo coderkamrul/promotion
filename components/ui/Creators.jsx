@@ -39,7 +39,7 @@ const Creators = () => {
               className={`flex flex-grow max-w-[380px]  md:pr-4 items-center gap-4 ${
                 card.id === CardData.length
                   ? ''
-                  : 'border-b-[3px] pb-4 md:border-b-0 md:border-r-[3px] border-primary'
+                  : 'border-b-[3px] pb-4 md:pb-0 md:border-b-0 md:border-r-[3px] border-primary'
               }`}
             >
               <Image
